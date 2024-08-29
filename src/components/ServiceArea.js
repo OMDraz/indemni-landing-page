@@ -183,7 +183,7 @@ function ServiceArea() {
                               </li>
                               <li>
                                 <i className="fa-regular fa-circle-check"></i>
-                                Comprehebsive Anti-Forgery Technology
+                                Comprehensive Anti-Forgery Technology
                               </li>
                             </ul>
                           </div>
@@ -237,7 +237,7 @@ function ServiceArea() {
                               </li>
                               <li>
                                 <i className="fa-regular fa-circle-check"></i>
-                                Comprehebsive Anti-Forgery Technology
+                                Comprehensive Anti-Forgery Technology
                               </li>
                             </ul>
                           </div>
