@@ -1355,6 +1355,9 @@ Primary style
   -ms-transform: rotateX(180deg);
   -o-transform: rotateX(180deg);
   transform: rotateX(180deg);
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
   
 }
 
@@ -1367,7 +1370,10 @@ Primary style
   transform: rotateX(0deg);
   -webkit-animation: cd-rotate-1-in 1.2s;
   -moz-animation: cd-rotate-1-in 1.2s;
-  animation: cd-rotate-1-in 1.2s;
+  display: inline-block;
+  opacity: 1;
+  position: relative;
+  animation: cd-rotate-1-in 1.2s
   
 }
 
@@ -1380,6 +1386,14 @@ Primary style
   -webkit-animation: cd-rotate-1-out 1.2s;
   -moz-animation: cd-rotate-1-out 1.2s;
   animation: cd-rotate-1-out 1.2s;
+  display: none;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
   
 }
 
