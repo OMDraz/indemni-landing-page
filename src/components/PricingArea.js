@@ -82,10 +82,10 @@ function PricingArea() {
                         </div>
                         <h4 className="title color-var-two">Premium</h4>
                         <p className="subtitle">
-                          For companies shipping less than 100 loads a month
+                          For companies shipping more than 25 loads a month
                         </p>
                         <div className="pricing">
-                          <span className="price-text">$499.00</span>
+                          <span className="price-text">$1250.00</span>
                           <span className="text">/Per Month</span>
                         </div>
                       </div>
