@@ -22,7 +22,6 @@ export default function App() {
         <Slider/>
         <BrandSlider/>
         <ServiceArea/>
-        <AdvanceTabArea/>
         <PricingArea/>
         <ServiceSpace/>
         <Header/>

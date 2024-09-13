@@ -11,24 +11,6 @@ function ServiceArea() {
   return (
     <div className="rainbow-service-area rainbow-section-gap">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div
-              className="section-title text-center pb--60"
-              data-sal="slide-up"
-              data-sal-duration="700"
-              data-sal-delay="100"
-            >
-              <h4 className="subtitle">
-                <span className="theme-gradient">
-                  Unlock Security for your Shipments
-                </span>
-              </h4>
-              <h2 className="title mb--0">AI Powered Risk Engine.</h2>
-            </div>
-          </div>
-        </div>
-
         <div className="row row--42 align-items-center">
           <div className="col-lg-16">
             <div className="rainbow-default-tab style-three generator-tab-defalt">
@@ -188,25 +170,33 @@ function ServiceArea() {
                             </ul>
                           </div>
                           <div className="read-more">
-                            <a className="btn-default color-blacked" href="https://calendly.com/meet-indemni/30min?background_color=000000&text_color=FFFFFF&primary_color=119DA4">
+                            <a
+                              className="btn-default color-blacked"
+                              href="https://calendly.com/meet-indemni/30min?background_color=000000&text_color=FFFFFF&primary_color=119DA4"
+                            >
                               Start Exploring Now{" "}
                               <i className="fa-sharp fa-solid fa-arrow-right"></i>
                             </a>
                           </div>
                         </div>
                       </div>
-                      <div className="col-xl-6 mt_md--30 mt_sm--30">
-                        <div className="export-img">
-                          <div className="inner-without-padding">
-                            <div className="export-img img-bg-shape">
-                              <img
-                                src="/images/generator-img/biometric-security.png"
-                                alt="Chat example Image"
-                              />
-                              <div className="image-shape"></div>
-                            </div>
-                          </div>
-                        </div>
+                      <div
+                        className="col-xl-6 mt_md--30 mt_sm--30"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center", // Center horizontally
+                          alignItems: "center", // Center vertically
+                          height: "100%", // Set height if you want vertical centering
+                        }}
+                      >
+                        <img
+                          src="/images/landing-page/identity-verification.png"
+                          alt="Chat example Image"
+                          style={{
+                            width: "45%",
+                            height: "auto",
+                          }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -242,25 +232,33 @@ function ServiceArea() {
                             </ul>
                           </div>
                           <div className="read-more">
-                            <a className="btn-default color-blacked" href="https://calendly.com/meet-indemni/30min?background_color=000000&text_color=FFFFFF&primary_color=119DA4">
+                            <a
+                              className="btn-default color-blacked"
+                              href="https://calendly.com/meet-indemni/30min?background_color=000000&text_color=FFFFFF&primary_color=119DA4"
+                            >
                               Start Exploring Now
                               <i className="fa-sharp fa-solid fa-arrow-right"></i>
                             </a>
                           </div>
                         </div>
                       </div>
-                      <div className="col-xl-6 mt_md--30 mt_sm--30">
-                        <div className="export-img">
-                          <div className="inner-without-padding">
-                            <div className="export-img img-bg-shape">
-                              <img
-                                src="/images/generator-img/security-folder.png"
-                                alt="Chat example Image"
-                              />
-                              <div className="image-shape"></div>
-                            </div>
-                          </div>
-                        </div>
+                      <div
+                        className="col-xl-6 mt_md--30 mt_sm--30"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center", // Center horizontally
+                          alignItems: "center", // Center vertically
+                          height: "100%", // Set height if you want vertical centering
+                        }}
+                      >
+                        <img
+                          src="/images/landing-page/shipment_verification.png"
+                          alt="Chat example Image"
+                          style={{
+                            width: "45%",
+                            height: "auto",
+                          }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -278,18 +276,16 @@ function ServiceArea() {
                     <div className="row">
                       <div className="col-xl-6">
                         <div className="section-title">
-                          <h2 className="title">
-                            Reduce Chargebacks
-                          </h2>
+                          <h2 className="title">Reduce Chargebacks</h2>
                           <div className="features-section">
                             <ul className="list-style--1">
                               <li>
                                 <i className="fa-regular fa-circle-check"></i>
-                                Step by Step Photo Proof 
+                                Step by Step Photo Proof
                               </li>
                               <li>
                                 <i className="fa-regular fa-circle-check"></i>
-                                Automated Organization and Sharing 
+                                Automated Organization and Sharing
                               </li>
                               <li>
                                 <i className="fa-regular fa-circle-check"></i>
@@ -298,25 +294,33 @@ function ServiceArea() {
                             </ul>
                           </div>
                           <div className="read-more">
-                            <a className="btn-default color-blacked" href="https://calendly.com/meet-indemni/30min?background_color=000000&text_color=FFFFFF&primary_color=119DA4">
+                            <a
+                              className="btn-default color-blacked"
+                              href="https://calendly.com/meet-indemni/30min?background_color=000000&text_color=FFFFFF&primary_color=119DA4"
+                            >
                               Start Exploring Now{" "}
                               <i className="fa-sharp fa-solid fa-arrow-right"></i>
                             </a>
                           </div>
                         </div>
                       </div>
-                      <div className="col-xl-6 mt_md--30 mt_sm--30">
-                        <div className="export-img">
-                          <div className="inner-without-padding">
-                            <div className="export-img img-bg-shape">
-                              <img
-                                src="/images/generator-img/server-security.png"
-                                alt="Chat example Image"
-                              />
-                              <div className="image-shape"></div>
-                            </div>
-                          </div>
-                        </div>
+                      <div
+                        className="col-xl-6 mt_md--30 mt_sm--30"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center", // Center horizontally
+                          alignItems: "center", // Center vertically
+                          height: "100%", // Set height if you want vertical centering
+                        }}
+                      >
+                        <img
+                          src="/images/landing-page/cargo_verification.png"
+                          alt="Chat example Image"
+                          style={{
+                            width: "45%",
+                            height: "auto",
+                          }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -335,7 +339,7 @@ function ServiceArea() {
                       <div className="col-xl-6">
                         <div className="section-title">
                           <h2 className="title">
-                            Carrier Risk and Reputation Assessments 
+                            Carrier Risk and Reputation Assessments
                           </h2>
                           <div className="features-section">
                             <ul className="list-style--1">
@@ -345,34 +349,42 @@ function ServiceArea() {
                               </li>
                               <li>
                                 <i className="fa-regular fa-circle-check"></i>
-                                Surface Risk and Fraud Flags 
+                                Surface Risk and Fraud Flags
                               </li>
                               <li>
                                 <i className="fa-regular fa-circle-check"></i>
-                                Avoid Double Brokering 
+                                Avoid Double Brokering
                               </li>
                             </ul>
                           </div>
                           <div className="read-more">
-                            <a className="btn-default color-blacked" href="https://calendly.com/meet-indemni/30min?background_color=000000&text_color=FFFFFF&primary_color=119DA4">
+                            <a
+                              className="btn-default color-blacked"
+                              href="https://calendly.com/meet-indemni/30min?background_color=000000&text_color=FFFFFF&primary_color=119DA4"
+                            >
                               Start Exploring Now{" "}
                               <i className="fa-sharp fa-solid fa-arrow-right"></i>
                             </a>
                           </div>
                         </div>
                       </div>
-                      <div className="col-xl-6 mt_md--30 mt_sm--30">
-                        <div className="export-img">
-                          <div className="inner-without-padding">
-                            <div className="export-img img-bg-shape">
-                              <img
-                                src="/images/generator-img/security-bugs.png"
-                                alt="Chat example Image"
-                              />
-                              <div className="image-shape"></div>
-                            </div>
-                          </div>
-                        </div>
+                      <div
+                        className="col-xl-6 mt_md--30 mt_sm--30"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center", // Center horizontally
+                          alignItems: "center", // Center vertically
+                          height: "100%", // Set height if you want vertical centering
+                        }}
+                      >
+                        <img
+                          src="/images/landing-page/loader.png"
+                          alt="Chat example Image"
+                          style={{
+                            width: "100%",
+                            height: "auto",
+                          }}
+                        />
                       </div>
                     </div>
                   </div>
@@ -391,45 +403,52 @@ function ServiceArea() {
                       <div className="col-xl-6">
                         <div className="section-title">
                           <h2 className="title">
-                            Keep an eye on your Shipment at all times 
+                            Keep an eye on your Shipment at all times
                           </h2>
                           <div className="features-section">
                             <ul className="list-style--1">
                               <li>
                                 <i className="fa-regular fa-circle-check"></i>
-                                Input your IOT device info  
+                                Input your IOT device info
                               </li>
                               <li>
                                 <i className="fa-regular fa-circle-check"></i>
-                                Build custom alerting based 
+                                Build custom alerting based
                               </li>
                               <li>
                                 <i className="fa-regular fa-circle-check"></i>
                                 Take quick action on risky scenarios
                               </li>
-    
                             </ul>
                           </div>
                           <div className="read-more">
-                            <a className="btn-default color-blacked" href="https://calendly.com/meet-indemni/30min?background_color=000000&text_color=FFFFFF&primary_color=119DA4">
+                            <a
+                              className="btn-default color-blacked"
+                              href="https://calendly.com/meet-indemni/30min?background_color=000000&text_color=FFFFFF&primary_color=119DA4"
+                            >
                               Start Exploring Now{" "}
                               <i className="fa-sharp fa-solid fa-arrow-right"></i>
                             </a>
                           </div>
                         </div>
                       </div>
-                      <div className="col-xl-6 mt_md--30 mt_sm--30">
-                        <div className="export-img">
-                          <div className="inner-without-padding">
-                            <div className="export-img img-bg-shape">
-                              <img
-                                src="/images/generator-img/in-transit-visibility.png"
-                                alt="Chat example Image"
-                              />
-                              <div className="image-shape"></div>
-                            </div>
-                          </div>
-                        </div>
+                      <div
+                        className="col-xl-6 mt_md--30 mt_sm--30"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center", // Center horizontally
+                          alignItems: "center", // Center vertically
+                          height: "100%", // Set height if you want vertical centering
+                        }}
+                      >
+                        <img
+                          src="/images/landing-page/intransit_visibility.png"
+                          alt="Chat example Image"
+                          style={{
+                            width: "100%",
+                            height: "auto",
+                          }}
+                        />
                       </div>
                     </div>
                   </div>

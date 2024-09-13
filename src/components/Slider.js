@@ -50,7 +50,7 @@ function Slider() {
                     </div>
                     <div className="col-lg-11 col-xl-11 justify-content-center">
                         <div className="slider-frame">
-                            <img className="slider-image-effect" src="/images/bg/slider-main-image.png" alt="Banner Images" />
+                            <img className="slider-image" src="/images/landing-page/loader.png" alt="Banner Images" />
                         </div>
                     </div>
                 </div>
